@@ -18,6 +18,10 @@ ll modExpo(ll base, ll exp, ll mod) {
 ll findInverse(ll n,ll MOD){
     return modExpo(n,MOD-2,MOD);
 }
+ll divideModulo(ll a, ll b, ll m) {
+    ll b_inv = modInversePrime(b, m);
+    return ((a % m) * b_inv) % m;
+}
 void solve(ll t){
     
 }
