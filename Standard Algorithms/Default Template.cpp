@@ -22,7 +22,7 @@ ll divideModulo(ll a, ll b, ll m) {
     ll b_inv = findInverse(b, m);
     return ((a % m) * b_inv) % m;
 }
-void solve(ll t){
+void solve(ll t,ll testcases){
     
 }
 int main(){
@@ -31,7 +31,7 @@ int main(){
   ll t=1;
   cin>>t;
   for(int i=1;i<=t;i++){
-  solve(i);
+  solve(i,t);
   }
   return 0;
 }
