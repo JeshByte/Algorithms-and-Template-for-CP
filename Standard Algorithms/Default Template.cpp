@@ -22,6 +22,9 @@ ll divideModulo(ll a, ll b, ll m) {
     ll b_inv = findInverse(b, m);
     return ((a % m) * b_inv) % m;
 }
+void printWithPrecision(auto n){
+    cout << fixed << setprecision(6) << n << '\n';
+}
 void solve(ll t,ll testcases){
     
 }
