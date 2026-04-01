@@ -40,3 +40,6 @@ int main(){
   }
   return 0;
 }
+// for interactive
+// cout<<" "<<endl;
+// fflush(stdout);
