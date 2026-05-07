@@ -2,6 +2,7 @@
 #include <ext/pb_ds/tree_policy.hpp>
  
 typedef __gnu_pbds::tree<ll, __gnu_pbds::null_type, less<ll>, __gnu_pbds::rb_tree_tag, __gnu_pbds::tree_order_statistics_node_update> ordered_set;
+//take pair<ll,ll> instead of ll to handle duplicates
 
 ordered_set X; //made for ll input
     X.insert(1);
