@@ -1,0 +1,1 @@
+For n=2 and 3 the answer is always 1. Otherwise the answer will be shortest distance from the catcher to either of the adjacent positions of the escapee + k + 1.
