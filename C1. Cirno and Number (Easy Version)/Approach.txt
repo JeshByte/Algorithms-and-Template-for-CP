@@ -1,0 +1,4 @@
+We will try to generate 2 numbers -> greatest number smaller than a and smallest number larger than a.
+In this first case, we will iterate through a until we reach a digit which is not in d. If the digit is smaller than all the digits in d, we will backtrack and reduce one of the digits from the prefix. And then we will fill the rest of the number with the highest digit in d. If you are unable to reduce any digit, then we will overwrite the number with the same highest digits to create a number of length one less than that of a. If the digit is larger than all the digits in d, we will fill the remaining number with that highest digit. And if the digit is in between then at that position put the digit just below it and fill the remaining number with the highest digit. Handle the case of 0 carefully.
+We will have to follow a similar logic flow for the second case.
+Using these 2 numbers we will get our final answer.
