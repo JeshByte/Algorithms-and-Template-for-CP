@@ -1,0 +1,3 @@
+0 by itself is divisible by 3 and when you sum it with other numbers it doesn't contribute any thing. So it would be optimal to perform individual operations on each 0. Next comes 1 and 2. Now u can use a pair of 1 and 2 to create 3 and perform the operation. Using 1 and 2 alone will need more numbers so it's better to use them together as much as possible. Then with the remaining 1s, you can take them 3 at a time to perform the operation. Same with 2. Remember we need to maximise the operations so even though we can like take 9 1s or 6 2s too to perform one operation we won't as it isn't desirable.
+
+Thus the final answer will be freq(0)+min(freq(1),freq(2))+remaining_freq(1)/3+remaining_freq(2)/3
